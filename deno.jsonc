@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "df": "deno run --allow-read --allow-write=/tmp --allow-net --allow-env --allow-run --unstable --no-lock https://deno.land/x/denoflare@v0.5.11/cli/cli.ts",
+    "dev": "deno task df serve learn-denoflare-r2",
+    "genconfig": "deno run --allow-read=.env,.env.defaults --allow-write=.denoflare --allow-env --no-lock config.ts",
+    "fmt": "deno fmt --ignore=README.md,LICENSE,.vscode/"
+  },
+  "importMap": "./import_map.json"
+}

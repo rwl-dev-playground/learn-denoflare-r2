@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "std/": "https://deno.land/std@0.167.0/",
+    "denoflare/": "https://deno.land/x/denoflare@v0.5.11/"
+  }
+}
